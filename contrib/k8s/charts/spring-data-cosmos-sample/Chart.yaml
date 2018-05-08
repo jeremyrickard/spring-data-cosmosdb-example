@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A sample Spring Boot application using Spring Data Azure CosmosDB
+name: spring-data-cosmos-sample
+version: 0.1.0

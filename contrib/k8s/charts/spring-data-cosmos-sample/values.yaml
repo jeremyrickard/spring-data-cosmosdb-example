@@ -1,0 +1,16 @@
+# Default values for spring-data-cosmos-sample.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+replicaCount: 1
+image:
+  repository: jeremyrickard/cosmosdb-demo
+  tag: blog-post 
+  pullPolicy: Always
+service:
+  name: user-service 
+  type: ClusterIP
+  externalPort: 8080
+  internalPort: 8080
+cosmosdb:
+  name: cosmosdb
+  location: eastus
